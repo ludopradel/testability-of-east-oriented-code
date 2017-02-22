@@ -1,10 +1,13 @@
-package katas;
+package katas.west;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.Arrays;
 
 import org.junit.Test;
+
+import katas.west.WestMovie;
+import katas.west.WestStarsAdder;
 
 public class WestStarsAdderShould
 {

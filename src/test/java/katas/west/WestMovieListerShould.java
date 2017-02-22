@@ -1,15 +1,15 @@
-package katas;
+package katas.west;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.Arrays;
 
-import katas.WestFinder;
-import katas.WestMovie;
-import katas.WestMovieLister;
-
 import org.junit.Test;
 import org.mockito.Mockito;
+
+import katas.west.WestFinder;
+import katas.west.WestMovie;
+import katas.west.WestMovieLister;
 
 
 public class WestMovieListerShould

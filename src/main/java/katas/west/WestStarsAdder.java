@@ -1,4 +1,4 @@
-package katas;
+package katas.west;
 
 import java.util.List;
 
