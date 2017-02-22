@@ -7,15 +7,11 @@ import java.util.Arrays;
 import org.junit.Test;
 import org.mockito.Mockito;
 
-import katas.west.WestFinder;
-import katas.west.WestMovie;
-import katas.west.WestMovieLister;
-
 
 public class WestMovieListerShould
 {
 	@Test
-	public void returnMovieDirectedByASpecificDirector() throws Exception
+	public void returnMovieDirectedByASpecificDirector()
 	{
 		WestMovie fakeSpielbergMovie = Mockito.mock(WestMovie.class);
 		Mockito.when(fakeSpielbergMovie.director()).thenReturn("Steven Spielberg");
